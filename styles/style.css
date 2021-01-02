@@ -24,6 +24,9 @@
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   
 }
+.texter{
+  margin-top: 70px;
+}
 .lign{
     text-decoration:underline white;
 }
@@ -73,8 +76,43 @@
 .bottome{
     margin-top: 200px;
     height: 250px;
+    background-color: rgb(94, 87, 74);
 }
 .ulist{
    list-style: none;
     margin-top: 70px;
+}
+#search{
+    padding: 5px;
+    border-bottom:1px solid white;
+    outline:none;
+    width: 320px;
+    padding-left: 20px;
+    background:url('/images/enveloppe.PNG') right no-repeat;
+    transition: width 2s;
+    -webkit-transition: width 2s;
+    -moz-transition: width 2s;
+    -o-transition: width 2s;
+    -ms-transition: width 2s;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+#search:focus{
+    width: 200px;
+}
+input{
+    margin: 20px;
+    font-size: 18px;
+    margin: 5px 0;
+    color: white;
+}
+.bot{
+    border-radius: 6px;
+    height: 30px;
+    width: 10%;
+}
+.icone{
+    width: 40%;
+    height: 40px;
 }
