@@ -8,3 +8,36 @@
 .text{
     font-size: 22px;
 }
+.texte{
+    text-align: center;
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.center{
+    width: 100%;
+    height: 300px;
+    background: url(/images/enfant.png) no-repeat ;
+    animation: animate 15s infinite; 
+}
+@keyframes animate{
+    0%{background-position: 
+        0% 50%;}
+        0%{background-position: 
+            50% 0%;}
+            0%{background-position: 
+                0% 50%;}
+}
+.cente{
+    width: 100%;
+    height: 300px;
+    background: url(/images/famille.png) no-repeat ;
+    animation: animate 30s infinite; 
+}
+@keyframes animate{
+    0%{background-position: 
+        0% 50%;}
+        0%{background-position: 
+            50% 0%;}
+            0%{background-position: 
+                0% 50%;}
+}
