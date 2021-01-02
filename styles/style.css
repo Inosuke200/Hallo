@@ -19,6 +19,14 @@
     font-family: monospace;
   
 }
+.textess{
+    font-size: 17px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  
+}
+.lign{
+    text-decoration:underline white;
+}
 .down{
     margin-top: 100px;
 }
@@ -61,4 +69,12 @@
 }
 .bottom{
     margin-top: 100px;
+}
+.bottome{
+    margin-top: 200px;
+    height: 250px;
+}
+.ulist{
+   list-style: none;
+    margin-top: 70px;
 }
