@@ -1,5 +1,5 @@
 .text{
-    font-size: 22px;
+    font-size: 20px;
 }
 .texte{
     text-align: center;
@@ -11,6 +11,10 @@
     font-size: 30px;
     font-family: monospace;
   
+}
+.index{
+    z-index: 5;
+    width: 90%;
 }
 .textess{
     font-size: 17px;
