@@ -6,70 +6,75 @@
     <link rel="stylesheet" href="/bootrsap4/css/bootstrap.min.css">
     <script src="/bootrsap4/jquery-3.5.1.js"></script>
     <link rel="stylesheet" href="styles/style.css">
+    <script src="app.js"></script>
     <title>Accueil</title>
 </head>
-<body>
-<div class="carousel slide carousel-fade" data-ride="carousel">
-    <div class="container-fluid m-0 p-0">
-    <img src="/images/bare.png" alt="" width="100%">
-    </div>
-     <div class="carousel-inner">
-         <div class="carousel-item active" data-interval="3000">
-            <img src="images/docteurs.png" class="d-block w-100" height="400px" width="100%" alt=" groupe de docteur">
-            <div class="container-fluid m-0 p-0">
-                <div class="carousel-caption ">
-                    <img src="/images/logo.png" alt="" width="20%" height="89Opx" >
-                 </div>
-            </div>
-        </div>
-        <div class="carousel-item "  data-interval="3000">
-            <img src="images/docteurs.png" class="d-block w-100 " height="400px" width="100%"  alt="un docteur">
-            <div class="carousel-caption ">
-               <img src="/images/logo.png" alt="" width="20%" height="89Opx" >
-            </div>
-        </div>
-        <div class="carousel-item"  data-interval="3000">
-            <img src="images/docteurs.png" class="d-block w-100 " height="400px" width="100%"  alt="La famille">
-            <div class="carousel-caption ">
-                <img src="/images/logo.png" alt="" width="20%" height="89Opx" >
-            </div>
-            <div class="carousel-caption ">
-                <img src="/images/logo.png" alt="" width="20%" height="89Opx" >
-            </div>
-        </div>
-    </div>
-</div>
-<div class="container-fluid">
-    <div class="row ">
-        <div class="col-lg-12 d-flex justify-content-center bg-primary">
-            <nav class="navbar navbar-expand-lg navbar-light bg-primary">
-                <a class="navbar-brand" href="#"></a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ">
-                    <li class="nav-item text-center mr-4 text active">
-                    <a class="nav-link text-white" href="#">Accueil<span class="sr-only">(current)</span></a>
-                    </li>
-                    <li class="nav-item text-center text  mr-4">
-                    <a class="nav-link text-white" href="#">Nos spécialités</a>
-                    </li>
-                    <li class="nav-item  mr-4 text">
-                    <a class="nav-link text-white" href="#">Prendre rendez-vous</a>
-                    </li>
-                    <li class="nav-item  mr-4 text">
-                        <a class="nav-link text-white" href="#">Contactez-nous</a>
-                    </li>
-                    <li class="nav-item  mr-4 text">
-                    <a class="nav-link disabled dropdown-toggle text-white" href="#" tabindex="-1" aria-disabled="true">Fr</a>
-                    </li>
-                </ul>
+<body >
+
+
+
+
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top anim-nav" >
+        <div class="container">
+                        <a class="navbar-brand" href="#"><img src="/images/logo.png" alt="" width="100%" height="150px"></a>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <form class="form-inline my-2 my-lg-0 ml-auto">
+                        <input class="form-control mr-sm-2" type="search" placeholder="Rechercher" aria-label="Search" id="search_1">
+                    </form>
                 </div>
-            </nav>
+        </div>
+    </nav>
+
+
+
+
+    
+    <div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel">
+        <div class="carousel-inner fixed">
+          <div class="carousel-item active">
+            <img src="/images/docteur.png" class="d-block w-100" alt="un docteur" width="100%" height="500px">
+          </div>
+          <div class="carousel-item">
+            <img src="/images/enfant.png" class="d-block w-100" alt="enfant en consultation" width="100%" height="500px">
+          </div>
+          <div class="carousel-item">
+            <img src="/images/docteurs.png" class="d-block w-100" alt="des docteurs" width="100%" height="500px">
+          </div>
         </div>
     </div>
-</div>
+
+
+    <div class="container-fluid">
+        <div class="row ">
+            <div class="col-lg-12 d-flex justify-content-center bg-primary">
+                <nav class="navbar navbar-expand-lg navbar-light bg-primary">
+                    <a class="navbar-brand" href="#"></a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ">
+                        <li class="nav-item text-center mr-4 text active">
+                        <a class="nav-link text-white" href="#">Accueil<span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item text-center text  mr-4">
+                        <a class="nav-link text-white" href="#">Nos spécialités</a>
+                        </li>
+                        <li class="nav-item  mr-4 text">
+                        <a class="nav-link text-white" href="#">Prendre rendez-vous</a>
+                        </li>
+                        <li class="nav-item  mr-4 text">
+                            <a class="nav-link text-white" href="#">Contactez-nous</a>
+                        </li>
+                        <li class="nav-item  mr-4 text">
+                        <a class="nav-link disabled dropdown-toggle text-white" href="#" tabindex="-1" aria-disabled="true">Fr</a>
+                        </li>
+                    </ul>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </div>
 <div class="container mt-4">
     <p class="text-body texte">Informations sur le Covid-19</p>
 </div>
@@ -224,32 +229,32 @@
     <p class="text-body texte">Présentation</p>
     <div class="container">
         <div class="row">
-            <div class="col-4 image">
+            <div class="col-lg-4 image">
                 <img src="/images/bebe.PNG" alt="" width="100%" height="150px">
             </div>
-            <div class="col-4">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate perspiciatis nulla aspernatur maiores a repellat alias eligendi ea ad nisi, nobis possimus vitae perferendis magnam, id, reprehenderit odio nemo. Aperiam.
+            <div class="col-lg-4">
+             Hallo_Docteur est une clinique basée à Ouagadougou dans la capitale burkinabè(Burkina Faso) non loin de l'ambassade de la cité de Abdoul Service International(promoteur immobilier) sise à Boulmiougou dans l'arrondissement N°6.
             </div>
-            <div class="col-4 image">
+            <div class="col-lg-4 image">
                 <img src="/images/consultation.png" alt="" width="100%" height="150px">
             </div>
         </div>
         <div class="row">
-            <div class="col-4 text-justify">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate perspiciatis nulla aspernatur maiores a repellat alias eligendi ea ad nisi, nobis possimus vitae perferendis magnam, id, reprehenderit odio nemo. Aperiam.
+            <div class="col-lg-4 text-justify">
+                Hallo_Docteur est une clinique basée à Ouagadougou dans la capitale burkinabè(Burkina Faso) non loin de l'ambassade de la cité de Abdoul Service International(promoteur immobilier) sise à Boulmiougou dans l'arrondissement N°6.
             </div>
-            <div class="col-4 image">
+            <div class="col-lg-4 image">
                 <img src="/images/scanner.png" alt="" width="100%" height="150px">
             </div>
-            <div class="col-4">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate perspiciatis nulla aspernatur maiores a repellat alias eligendi ea ad nisi, nobis possimus vitae perferendis magnam, id, reprehenderit odio nemo. Aperiam.
+            <div class="col-lg-4">
+                Hallo_Docteur est une clinique basée à Ouagadougou dans la capitale burkinabè(Burkina Faso) non loin de l'ambassade de la cité de Abdoul Service International(promoteur immobilier) sise à Boulmiougou dans l'arrondissement N°6.
             </div>
         </div>
     </div>
 </div>
 
 <div class="container-fluid ">
-    <div class="row">
+    <div class="row reveal reveal-visible">
         <div class="col-7 bg-dark bottome ">
             <div class="row">
                 <div class="col-4 offset-8">
@@ -312,9 +317,5 @@
       <script src="/bootrsap4/js/bootstrap.js"></script>
 </body>
 </html>
-
-
-
-
 
 

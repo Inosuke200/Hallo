@@ -1,10 +1,3 @@
-
-.carousel-caption{
-    margin: 195px;
-    width: 100%;
-    height: 150px;
-    left: 32px;
-}
 .text{
     font-size: 22px;
 }
@@ -22,7 +15,6 @@
 .textess{
     font-size: 17px;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-  
 }
 .texter{
   margin-top: 70px;
@@ -101,6 +93,12 @@
 #search:focus{
     width: 200px;
 }
+#search_1{
+    padding: 7px;
+    width: 240px;
+    padding-left: 15px;
+    background:url('/images/loupe.png') right no-repeat white;
+}
 input{
     margin: 20px;
     font-size: 18px;
@@ -130,3 +128,18 @@ input{
     -o-transform:scale(1.25);
     transform:scale(1.25);
  }
+.marge{
+    margin-top: 80px;
+}
+.goto{
+    margin-bottom: 45px;
+}
+.reveal{
+    opacity: O;
+    transform: translateY(-30px);
+}
+.reveal-visible{
+    opacity: 1;
+    transform: translateY(0);
+    transition: .3s;
+}
